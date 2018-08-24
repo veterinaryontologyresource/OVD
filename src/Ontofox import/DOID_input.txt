@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ovd/DOID_import.owl
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_11077 #brucellosis
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/DOID_104 #bacterial infectious disease
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

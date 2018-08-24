@@ -1,0 +1,46 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ovd/NCBITaxon_import.owl
+
+[Source ontology]
+#comment here
+#List of ontologies: OBI, NCBITaxon, MP, PATO, GO, DOID, IDO, CHEBI, SO, PRO, CL, ENVO, FMA, CARO
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapines, human
+http://purl.obolibrary.org/obo/NCBITaxon_9913 #Bos taurus, cattle
+http://purl.obolibrary.org/obo/NCBITaxon_9823 #Sus scrofa, pig
+http://purl.obolibrary.org/obo/NCBITaxon_9925 #Capra hircus, 
+http://purl.obolibrary.org/obo/NCBITaxon_9940 #Ovis aries, sheep
+http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canis lupus familiaris， dog
+http://purl.obolibrary.org/obo/NCBITaxon_9796 #Equus caballus, domestic horse; equine; horse
+http://purl.obolibrary.org/obo/NCBITaxon_9925 #Capra hircus, goat; domestic goat; goats
+http://purl.obolibrary.org/obo/NCBITaxon_28211 #Alphaproteobacteria
+http://purl.obolibrary.org/obo/NCBITaxon_234 #Brucella 
+http://purl.obolibrary.org/obo/NCBITaxon_235 #Brucella abortus
+http://purl.obolibrary.org/obo/NCBITaxon_29461 #B. suis
+http://purl.obolibrary.org/obo/NCBITaxon_29459 #B. melitensis
+http://purl.obolibrary.org/obo/NCBITaxon_36855 #B. canis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2157
+subClassOf http://purl.obolibrary.org/obo/CARO_0001010 #CARO: organism or virus or viroid
+http://purl.obolibrary.org/obo/NCBITaxon_2
+subClassOf http://purl.obolibrary.org/obo/CARO_0001010 #CARO: organism or virus or viroid
+http://purl.obolibrary.org/obo/NCBITaxon_2759
+subClassOf http://purl.obolibrary.org/obo/CARO_0001010 #CARO: organism or virus or viroid
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+subClassOf http://purl.obolibrary.org/obo/CARO_0001010 #CARO: organism or virus or viroid
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
